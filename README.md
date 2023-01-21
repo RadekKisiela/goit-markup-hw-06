@@ -1,3 +1,3 @@
-# goit-markup-hw-04
+# goit-markup-hw-06
 
-git@github.com:RadekKisiela/goit-markup-hw-05.git
+git@github.com:RadekKisiela/goit-markup-hw-06.git
