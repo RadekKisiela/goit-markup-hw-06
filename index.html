@@ -290,12 +290,58 @@
                 <use class="footer-social" href="./images/icons.svg#icon-linkedin-1"></use>
               </svg></button>
           </div>
+          <li>
+          
+          <h3 class="title4">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+          <div class="newsletter">
+          <form name="signup_form" autocomplete="on" novalidate>
+            <label>
+              
+              <input class="newsletter-field" type="email" name="email" placeholder="E-mail" />
+              <button class="newsletter-button" type="submit">Zapisz się <svg width="24px" height="24px">
+              <use class="icon-submit" href="./images/icons.svg.#icon-icon-send"></use>
+            </svg> 
+            </button> 
+            
+              
+            </label></div></li>
         </address></li></ul>
       </div>
     </footer>
     <div class="modal-overley is-hidden" data-modal> 
       <div class="modal"> 
         <button type="button" class="close-button" data-modal-close>X</button>
+        <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+        <from class="modal-fields">
+          <ul>
+            <li>
+          <label>
+            <p class="modal-paragraph">Imię</p>
+            <input class="modal-field" type="text" name="username"/>
+            
+          </label></li>
+          <li>
+          <label>
+            <p class="modal-paragraph">Telefon</p>
+            <input class="modal-field" type="text" name="phone number"/>
+            
+          </label></li>
+          <li>
+          <label>
+            <p class="modal-paragraph">Email</p>
+            <input class="modal-field" type="email" name="email" />
+          </label></li>
+          <li>
+          <label>
+            <p class="modal-paragraph">Komentarz</p>
+            <textarea class="modal-comment-field" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+          </label></li>
+          <li>
+            <svg width="16px" height="15px"><use href="./images/icons.svg.#icon-Vector"></use></svg>
+            <p class="modal-checkbox">Oświadczam iż akceptuję <span class="modal-checkboxrp">Regulamin</span> i <span class="modal-checkboxrp">Politykę Prywatności.</span></p>
+          </li>
+        </ul>
+        </from>
       </div>
     </div> 
     <script src="./js/modal.js"></script>

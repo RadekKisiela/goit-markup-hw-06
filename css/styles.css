@@ -316,7 +316,6 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 16px;
-  padding-bottom: 30px;
   gap: 10px;
 }
 .icons {
@@ -462,4 +461,98 @@ a {
 }
 .lorem-icons {
   margin-bottom: 30px;
+}
+.newsletter-button {
+  width: 200px;
+  height: 50px;
+  color: var(--text-color-quaternary);
+  font-weight: 700;
+  background-color: var(--background-color-quaternary);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.icon-submit {
+  fill: #fff;
+  z-index: 2;
+}
+.newsletter-field {
+  padding-left: 16px;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+}
+.newsletter {
+  padding-top: 16px;
+}
+.modal-fields {
+  display: inline;
+}
+.modal-field {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 28px;
+  margin-left: 40px;
+}
+.modal-comment-field {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  color: rgba(117, 117, 117, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  margin-top: 4px;
+  margin-left: 40px;
+  padding-top: 12px;
+  padding-left: 16px;
+}
+.modal-paragraph {
+  color: rgba(117, 117, 117, 1);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16px;
+  letter-spacing: 0.01em;
+  margin-left: 40px;
+  margin-bottom: 4px;
+}
+.modal-title {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.modal-checkbox {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(117, 117, 117, 1);
+  margin-left: 8px;
+}
+.modal-checkboxrp {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(33, 150, 243, 1);
 }
