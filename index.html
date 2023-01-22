@@ -298,11 +298,10 @@
             <label>
               
               <input class="newsletter-field" type="email" name="email" placeholder="E-mail" />
-              <button class="newsletter-button" type="submit">Zapisz się <svg width="24px" height="24px">
-              <use class="icon-submit" href="./images/icons.svg.#icon-icon-send"></use>
+              <button class="newsletter-button" type="submit">Zapisz się <svg class="icon-submit" width="24px" height="24px">
+              <use href="./images/icons.svg#icon-icon-send"></use>
             </svg> 
             </button> 
-            
               
             </label></div></li>
         </address></li></ul>
@@ -311,9 +310,11 @@
     <div class="modal-overley is-hidden" data-modal> 
       <div class="modal"> 
         <button type="button" class="close-button" data-modal-close>X</button>
+        
         <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+    
         <from class="modal-fields">
-          <ul>
+          <ul class="modal-position">
             <li>
           <label>
             <p class="modal-paragraph">Imię</p>
@@ -337,11 +338,19 @@
             <textarea class="modal-comment-field" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
           </label></li>
           <li>
-            <svg width="16px" height="15px"><use href="./images/icons.svg.#icon-Vector"></use></svg>
-            <p class="modal-checkbox">Oświadczam iż akceptuję <span class="modal-checkboxrp">Regulamin</span> i <span class="modal-checkboxrp">Politykę Prywatności.</span></p>
+            
+            <input <svg width="16px" height="15px"><use href="./images/icons.svg#icon-Vector"></use></svg> class="checkbox" type="checkbox" class="form-input" >
+            
+            <label>
+            Oświadczam iż akceptuję <span class="modal-checkboxrp">Regulamin</span> i <span class="modal-checkboxrp">Politykę Prywatności.</span>
+          </label>
+          </li>
+          <li>
+            <button class="modal-button" type="submit">Wyślij</button>
           </li>
         </ul>
         </from>
+
       </div>
     </div> 
     <script src="./js/modal.js"></script>
