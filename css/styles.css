@@ -589,3 +589,12 @@ a {
 .modal-field:hover .modal-icons {
   fill: #2196f3;
 }
+.form-checkbox:checked {
+  appearance: none;
+  border: none;
+  background-image: url('../images/icons.svg#icon-Vector');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: none;
+}
